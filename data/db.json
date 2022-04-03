@@ -1,0 +1,171 @@
+{
+    "tasks": [
+    {
+      "name": "Nik1",
+      "email": "Nikhi@gmail.com",
+      "password": "Nikhil@123",
+      "password1": "Nikhil@123",
+      "number": 8619074467,
+      "id": 1
+    },
+    {
+      "name": "nikhil",
+      "email": "nikhi@gmail.com",
+      "password": "Nikhil@123",
+      "password1": "Nikhil@123",
+      "number": 8619074467,
+      "id": 2
+    },
+    {
+      "name": "nikihil",
+      "email": "Nikhil@gmail.com",
+      "password": "Nikhil@123",
+      "password1": "Nikhil@123",
+      "number": 8610907447,
+      "id": 3
+    },
+    {
+      "name": "nikhil bansal",
+      "email": "nikhil@gmail.com",
+      "password": "Nikhil@123",
+      "password1": "Nikhil@123",
+      "number": 8619074467,
+      "id": 4
+    },
+    {
+      "name": "nikhil",
+      "email": "nikhil@gmail.com",
+      "password": "Nikhil@123",
+      "password1": "Nikhil@123",
+      "number": 8619074467,
+      "id": 5
+    },
+    {
+      "name": "nikhil bansa",
+      "email": "Nikhil.saroj.bansal@gmail.com",
+      "password": "Nikhil@123",
+      "password1": "Nikhil@123",
+      "number": 8619074467,
+      "id": 6
+    },
+    {
+      "name": "nikhil bansal",
+      "email": "Nikhil@gmail.com",
+      "password": "Nikhil@123",
+      "password1": "Nikhil@123",
+      "number": 8619074467,
+      "id": 7
+    },
+    {
+      "name": "nikhil",
+      "email": "Nikhil@gmail.com",
+      "password": "Nikhil@123",
+      "password1": "Nikhil@123",
+      "number": 8619074468,
+      "id": 8
+    },
+    {
+      "name": "nikhil bansal",
+      "email": "nikhil@gmail.com",
+      "password": "Nikhil@123",
+      "password1": "Nikhil@123",
+      "number": 8619074467,
+      "id": 9
+    },
+    {
+      "name": "nikhil",
+      "email": "nikhil.@gmail.com",
+      "password": "Nikhil@123",
+      "password1": "Nikhil@123",
+      "number": 8619074467,
+      "id": 10
+    },
+    {
+      "name": "nikhil",
+      "email": "nikhil.bansal@gmail.com",
+      "password": "Nikhil@123",
+      "password1": "Nikhil@123",
+      "number": 8619074467,
+      "id": 11
+    },
+    {
+      "name": "nikhil",
+      "email": "nikhil.saroj.bansal@gmail.com",
+      "password": "Nikhil@123",
+      "password1": "Nikhil@123",
+      "number": 8619074467,
+      "id": 12
+    },
+    {
+      "name": "nikhil",
+      "email": "nikhil.saroj@gmail.com",
+      "password": "Nikhil@123",
+      "password1": "Nikhil@123",
+      "number": 8619074467,
+      "id": 13
+    },
+    {
+      "name": "nikhil",
+      "email": "nikhil.bansal999@gmail.com",
+      "password": "Nikhil@123",
+      "password1": "Nikhil@123",
+      "number": 8619074469,
+      "id": 14
+    },
+    {
+      "name": "nikhil",
+      "email": "nikhil.b@gmail.com",
+      "password": "Nikhil@123",
+      "password1": "Nikhil@123",
+      "number": 8619074460,
+      "id": 15
+    },
+    {
+      "name": "nikhil",
+      "email": "nikhil.bansal9999@gmail.com",
+      "password": "Nikhil@123",
+      "password1": "Nikhil@123",
+      "number": 8629074467,
+      "id": 16
+    },
+    {
+      "name": "nikhil",
+      "email": "bansal@gmail.com",
+      "password": "Nikhil@123",
+      "password1": "Nikhil@123",
+      "number": 8619074412,
+      "id": 17
+    }
+  ],
+  "task": [
+    {
+      "task": "dafsgfadsgf",
+      "date": "2022-02-23T10:52:59.693Z",
+      "id": 8
+    },
+    {
+      "task": "fdsgafhdgn",
+      "date": "2022-02-23T10:53:06.092Z",
+      "id": 9
+    },
+    {
+      "task": "adfs",
+      "date": "2022-02-23T11:27:19.572Z",
+      "id": 10
+    },
+    {
+      "task": "nikhil bansal hi t",
+      "id": 11
+    },
+    {
+      "task": "nikhil",
+      "date": "2022-02-24T04:56:10.427Z",
+      "id": 12
+    },
+    {
+      "task": "bansal",
+      "date": "2022-02-24T04:56:19.632Z",
+      "id": 13
+    }
+  ]
+}

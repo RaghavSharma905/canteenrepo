@@ -1,0 +1,48 @@
+.adminForm td{
+   width: 30% !important;
+}
+/* input[type=submit]{
+    margin: 0px auto;
+} */
+.productForm{
+    margin:30px;
+}
+.productForm h2{
+    margin-bottom: 30px;
+}
+.ActiveTable{
+    width: 70%;
+    margin:30px auto;
+
+}
+.confirmbody{
+    background-color: #ffe8d2;
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px 0px;
+
+}
+.confirmbody .card {
+    border: none
+}
+.totals tr td {
+    font-size: 13px
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right:1rem;
+    padding-left:1rem;
+}
+}
+@media (max-width: 992px){
+    button.nav-link{
+        margin:0px auto;
+        padding: 10px !important;
+    }
+}
+img.product_image{
+    width: 90%!important;
+    margin:0px auto;
+}
+
+
+
