@@ -5,9 +5,9 @@ import pic from '../images/logo.jpeg'
 import '../productform.css'
 
 
-const Header = (prop) => {
+const Header = (props) => {
 
-    const[token,setToken]=useState();
+     const[token,setToken]=useState();
 
 
     const btnChange=()=>
@@ -18,16 +18,11 @@ const Header = (prop) => {
             setToken("logged");
 
         }
-        else{
-            setToken("loggedout");
-        }
-        console.log(token);
-
-
     }
     const btnlogout=()=>
     {
      localStorage.removeItem("tokken");
+     props.removetoken("false");
     }
 
   return (
@@ -53,7 +48,8 @@ const Header = (prop) => {
             </li>
             <li className="nav-item">
                 {
-                !localStorage.getItem('tokken') ?  <Link className="nav-link btn btn-success text-white" to="/login" onClick={btnChange}>Login</Link> : <button className="nav-link btn btn-sm btn-danger text-white"  onClick={btnlogout}>Logout</button>
+                //!localStorage.getItem('tokken') ?  <Link className="nav-link btn btn-success text-white" to="/login" onClick={btnChange}>Login</Link> : <button className="nav-link btn btn-sm btn-danger text-white"  onClick={btnlogout}>Logout</button>
+                props.token!="true" ?  <Link className="nav-link btn btn-success text-white" to="/login" onClick={btnChange}>Login</Link> : <button className="nav-link btn btn-sm btn-danger text-white"  onClick={btnlogout}>Logout</button>
                 }
             </li>
             

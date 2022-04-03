@@ -79,22 +79,29 @@ function App() {
       }, proboj.pro_time)
    }
 
-   
+   const[token,setToken]=useState("false");
    const checkuser = (name,pass)=>
    {
           const User=JSON.parse(localStorage.getItem("User"));
           const Admin=JSON.parse(localStorage.getItem("Admin"));
           if(User.name===name && User.password===pass)
           {
-            localStorage.setItem("tokken","logged");
+            //localStorage.setItem("tokken","logged");
+            setToken("true");
+
           }
           else if(Admin.name===name && Admin.password===pass)
           {
-            localStorage.setItem("tokken","adminlogged");
+            //localStorage.setItem("tokken","adminlogged");
+            setToken("true");
           }
           else{
             alert("Please Enter correct login details");
           }
+    }
+    const Resettoken = (e)=>
+    {
+      setToken(e);
     }
 
   
@@ -102,19 +109,19 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      <Header token={token} />
       <Routes>
         <Route exact path="/login" element={ 
-          localStorage.getItem('tokken') ?  <Navigate  to="/" /> :<Login checklogin={checkuser}/>
+        token=="true"  ?  <Navigate  to="/" /> :<Login checklogin={checkuser} removetoken={Resettoken}/>
           } />
         <Route exact path="/menu" element={
-            !localStorage.getItem('tokken') ?  <Navigate  to="/login" /> : [<Menu products={productDetails} addOrder={AddActiveorder}/>,<Admin_menu />]
+            token!="true"  ?  <Navigate  to="/login" /> : [<Menu products={productDetails} addOrder={AddActiveorder}/>,<Admin_menu />]
           } />
         <Route exact path="/active" element={
-          !localStorage.getItem('tokken') ?  <Navigate  to="/login" /> : <Active product={productDetails} active={activeId} />
+          token!="true"  ?  <Navigate  to="/login" /> : <Active product={productDetails} active={activeId} />
         } />
         <Route exact path="/confirm" element={
-          !localStorage.getItem('tokken') ?  <Navigate  to="/login" /> : <Confirmed product={confirmPro} />
+          token!="true"  ?  <Navigate  to="/login" /> : <Confirmed product={confirmPro} />
         } />
       </Routes>
     </div>
